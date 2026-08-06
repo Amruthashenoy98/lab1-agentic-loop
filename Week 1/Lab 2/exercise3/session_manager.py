@@ -18,8 +18,7 @@ client = anthropic.Anthropic()
 
 SUMMARY_MODEL = "claude-haiku-4-5-20251001"
 
-# Resolve relative to this file, so it works no matter which directory you
-# run the script from.
+
 SESSIONS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sessions")
 
 
