@@ -16,7 +16,7 @@ import anthropic
 
 client = anthropic.Anthropic()
 
-SUMMARY_MODEL = os.environ["ANTHROPIC_MODEL"]
+SUMMARY_MODEL = "claude-haiku-4-5-20251001"
 
 
 SESSIONS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sessions")
